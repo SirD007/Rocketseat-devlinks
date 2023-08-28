@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Morais - Front-end Developer</title>
+</head>
+<body>
+    <div class="bg-web-bg-light md:bg-mobile-bg-light dark:md:bg-mobile-bg dark:bg-web-bg bg-no-repeat bg-center bg-cover h-screen w-screen flex items-center justify-center">
+        <div class="max-w-[590px] w-full p-4 flex flex-col items-center gap-10">
+            <div class="flex flex-col items-center gap-2">
+                <img class="rounded-full w-32 shadow-lg" src="src/assets/profile.png" alt="Imagem de um homem com fundo escuro e degradê usando uma camisa jeans">
+                <a class="dark:text-white text-gray-800 text-xs uppercase" href="https://github.com/SirD007">Acessar meu github</a>
+            </div>
+            <div class="relative flex items-center">
+                <button onclick="switchTheme()" class="bg-white flex items-center justify-center rounded-full p-2 absolute transition-all duration-500 shadow-xl dark:translate-x-8"><img id="themeBtn" src="src/assets/moon.svg" alt=""></button>
+                <div class="h-6 w-16 rounded-full border border-gray-300 dark:border-gray-700 bg-black bg-opacity-10 dark:bg-white dark:bg-opacity-10"></div>
+            </div>
+            <div class="w-full flex flex-col gap-3">
+                <button class="py-4 px-6 dark:text-white text-gray-800 border-[1px] dark:border-slate-100 border:gray-700 dark:bg-white dark:bg-opacity-20 dark:hover:bg-opacity-30 bg-black bg-opacity-5 rounded-lg w-full hover:bg-opacity-10 transition-all hover:border-gray-600"><a href="">Ver meu Portifólio</a></button>
+                <button class="py-4 px-6 dark:text-white text-gray-800 border-[1px] dark:border-slate-100 border:gray-700 dark:bg-white dark:bg-opacity-20 dark:hover:bg-opacity-30 bg-black bg-opacity-5 rounded-lg w-full hover:bg-opacity-10 transition-all hover:border-gray-600"><a href="">Meu último projeto</a></button>
+                <button class="py-4 px-6 dark:text-white text-gray-800 border-[1px] dark:border-slate-100 border:gray-700 dark:bg-white dark:bg-opacity-20 dark:hover:bg-opacity-30 bg-black bg-opacity-5 rounded-lg w-full hover:bg-opacity-10 transition-all hover:border-gray-600"><a href="">Projeto em desenvolvimento</a></button>
+            </div>
+            <div class="flex gap-6">
+                <button class="w-10 h-10 bg-transparent rounded-full p-0 flex justify-center items-center hover:bg-black hover:bg-opacity-10 dark:hover:bg-white dark:hover:bg-opacity-20 transition-all"><a class="flex items-center justify-center" href="https://github.com/SirD007"><ion-icon class="dark:text-white text-xl" name="logo-github"></ion-icon></a></button>
+                <button class="w-10 h-10 bg-transparent rounded-full p-0 flex justify-center items-center hover:bg-black hover:bg-opacity-10 dark:hover:bg-white dark:hover:bg-opacity-20 transition-all"><a class="flex items-center justify-center" href="https://github.com/SirD007"><ion-icon class="dark:text-white text-xl" name="logo-instagram"></ion-icon></a></button>
+                <button class="w-10 h-10 bg-transparent rounded-full p-0 flex justify-center items-center hover:bg-black hover:bg-opacity-10 dark:hover:bg-white dark:hover:bg-opacity-20 transition-all"><a class="flex items-center justify-center" href="https://github.com/SirD007"><ion-icon class="dark:text-white text-xl" name="logo-linkedin"></ion-icon></a></button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="src/index.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
